@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-sarah-configmap
+data:
+  DB_USERNAME: "postgresql"
+  DB_NAME: "postgres"
+  DB_HOST: "postgresql.default.svc.cluster.local"
+  DB_PORT: "5432"
